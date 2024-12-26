@@ -151,3 +151,19 @@ function drawWinningLine(line) {
     boardWrapper.style.position = 'relative';
     boardWrapper.appendChild(lineElement);
 }
+
+function replayGame() {
+    fields = [ 
+        null, 
+        null, 
+        null, 
+        null, 
+        null, 
+        null, 
+        null, 
+        null, 
+        null 
+    ];
+
+    render()
+}
